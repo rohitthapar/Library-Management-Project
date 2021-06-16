@@ -1,13 +1,11 @@
-
-
-#include<iostream>
-#include<fstream>
-#include<conio.h>
-#include<stdio.h>
-#include<process.h>
-#include<string.h>
-#include<iomanip>
-#include<stdlib.h>
+#include <iostream>
+#include <fstream>
+#include <conio.h>
+#include <stdio.h>
+#include <process.h>
+#include <string.h>
+#include <iomanip>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -445,7 +443,7 @@ void book_deposit()
     int found=0,flag=0,day,fine;
     system("cls");
     cout<<"\n\nBOOK DEPOSIT ...";
-    cout<<"\n\n\tEnter The student’s admission no.";
+    cout<<"\n\n\tEnter The studentï¿½s admission no.";
     cin>>sn;
     fp.open("student.dat",ios::in|ios::out);
     fp1.open("book.dat",ios::in|ios::out);
